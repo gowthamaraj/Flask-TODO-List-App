@@ -1,0 +1,24 @@
+.hidden {
+    display: none;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+    width: 200px;
+  }
+  li {
+    clear: both;
+  }
+  li button {
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    color: red;
+    float: right;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .lists-wrapper, .todos-wrapper {
+    display: inline-block;
+    vertical-align: top;
+  }
